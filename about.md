@@ -4,8 +4,6 @@ title: About Me
 permalink: /about/
 ---
 
-# About Me #
-
 I like what I can do with a computer or rather what it can do for me.
 Some might consider me a failure by many traditional standards.
 But when sit before my computer, the world disappears.
