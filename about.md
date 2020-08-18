@@ -1,15 +1,16 @@
 ---
 layout: page
-title: About
+title: About Me
 permalink: /about/
 ---
 
-Some information about you!
+# About Me #
 
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
+I like what I can do with a computer or rather what it can do for me.
+Some might consider me a failure by many traditional standards.
+But when sit before my computer, the world disappears.
+That's enough for me...
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[Email](mailto:madhu4surisetti@gmail.com)
