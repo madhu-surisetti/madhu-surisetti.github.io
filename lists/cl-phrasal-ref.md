@@ -17,11 +17,12 @@ I hated programming.
 But I still loved solving problems.
 
 And by luck, somehow I came across lisp and I love it.
-It lets me tell the computer exactly what you wanted to say and how you wanted to say it.
+It lets me tell the computer exactly what I wanted to say and how I wanted to say it.
 It lets me cut through the syntactic obligation and stay in my head.
 
 But to make my experience even better, I am creating this CommonLisp Phrasal Reference.
-I don't if this kind of references exists, but this is the way I think.
+I don't know if this kind of references exists, but this is the way I think.
 This phrasal reference is something that bridges the very very small gap that exists in CommonLisp and Plain English.
+
 
 
