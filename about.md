@@ -4,10 +4,9 @@ title: About Me
 permalink: /about/
 ---
 
-I like what I can do with a computer or rather what it can do for me.
-Some might consider me a failure by many traditional standards.
-But when i sit before my computer, the world disappears.
-That's enough for me...
+I'm just a 22 year old looking for freedom and independence.
+Do you have it?
+Tell me how you got it.
 
 ### Contact me
 
