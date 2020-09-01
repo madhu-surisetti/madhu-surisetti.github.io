@@ -25,6 +25,17 @@ I don't know if this kind of references exists, but this is the way I think.
 This phrasal reference is something that bridges the very very small gap that exists in CommonLisp and Plain English.
 
 
+```lisp
+(defun sentence ()    (append (noun-phrase) (verb-phrase)))
+(defun noun-phrase () (append (Article) (Noun)))
+(defun verb-phrase () (append (Verb) (noun-phrase)))
+(defun Article ()     (one-of '(the a)))
+(defun Noun ()        (one-of '(man ball woman table)))
+(defun Verb ()        (one-of '(hit took saw liked)))
+```
+
+
+
 ### Get the first element out of a list while removing it ###
 ```lisp
 (pop *list*)
@@ -34,5 +45,28 @@ This phrasal reference is something that bridges the very very small gap that ex
 ```lisp
 (car *list*)
 ```
+
+### Load the file into a string ###
+```lisp
+(uiop:read-file-string "file.txt")
+```
+
+
+
+```lisp
+(defun sentence ()    (append (noun-phrase) (verb-phrase)))
+(defun noun-phrase () (append (Article) (Noun)))
+(defun verb-phrase () (append (Verb) (noun-phrase)))
+(defun Article ()     (one-of '(the a)))
+(defun Noun ()        (one-of '(man ball woman table)))
+(defun Verb ()        (one-of '(hit took saw liked)))
+```
+
+
+
+
+
+
+
 
 
