@@ -5,19 +5,18 @@ description: and his adventures in la la land
 ---
 
 <div class="posts" >
-    <h2> All Posts </h2>
+    <h2> All Essays </h2>
   {% for post in site.posts %}
     {% if post.publish == "t" %}
-    <article class="post">
-
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
-
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
+        {% if post.type == "essay" %}
+            <article class="post">
+                <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+                <div class="entry">
+                    {{ post.excerpt }}
+                </div>
+                <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+            </article>
+        {% endif %}
     {% endif %}
   {% endfor %}
 </div>

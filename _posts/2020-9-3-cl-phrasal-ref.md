@@ -2,6 +2,8 @@
 layout: page
 title: CommonLisp Phrasal Reference
 permalink: /clpr/
+publish: t
+type: list
 ---
 
 I Love Lisp.

@@ -2,7 +2,7 @@
 layout: post
 title: Up and running!
 publish: t
-post: essay
+type: essay
 ---
 
 OK.
