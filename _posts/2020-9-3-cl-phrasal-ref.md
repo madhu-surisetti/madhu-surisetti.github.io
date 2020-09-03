@@ -28,9 +28,7 @@ This phrasal reference is something that bridges the very very small gap that ex
 
 
 ### Get the first element out of a list while removing it ###
-```lisp
-(pop *list*)
-```
+`(pop *list*)`
 
 ### Get the first element out of a list without removing it ###
 ```lisp
