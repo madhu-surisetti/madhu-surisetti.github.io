@@ -39,3 +39,13 @@ This phrasal reference is something that bridges the very very small gap that ex
 ```lisp
 (uiop:read-file-string "file.txt")
 ```
+
+
+
+```json
+{
+  "firstName": "John",
+  "lastName": "Smith",
+  "age": 25
+}
+```
