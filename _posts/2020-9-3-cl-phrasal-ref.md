@@ -40,3 +40,8 @@ This phrasal reference is something that bridges the very very small gap that ex
 (uiop:read-file-string "file.txt")
 ```
 
+### Iterate over a hash table with the extended LOOP macro
+```lisp
+(loop for k being the hash-keys in *h* using (hash-value v)
+  do (format t "~a => ~a~%" k v))
+  ```
