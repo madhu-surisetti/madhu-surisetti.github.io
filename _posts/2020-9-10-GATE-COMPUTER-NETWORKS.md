@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Quotes
-permalink: /q/
+permalink: /gate/computer-networks/
 publish: t
 type: list
 ---
@@ -25,4 +25,8 @@ type: list
 - If you buy an IP address, you buy a network-id(i.e., the first k bits)
 - There is another way meta way of dividing IP addresses: classfull
 ![alt text](https://raw.githubusercontent.com/madhu-surisetti/madhu-surisetti.github.io/master/images/gate/classfull.png "Classfull division of IP addresses")
-- 
+- classA - 2^31 addresses
+- classB - 2^30 addresses
+- classC - 2^29 addresses
+- classD - 2^28 addresses
+- classE - 2^28 addresses
