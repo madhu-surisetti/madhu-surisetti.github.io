@@ -22,3 +22,7 @@ So is Lisp.
 The only way I know of, to be good at abstraction is to practice it.
 If you hate math and don't feel abstractions are useful, you should read SICP.
 You will see what abstractions can do to your life.
+
+## Remember
+
+- Don't tackle the whole problem at once. You only need to tackle a small piece and build on that. You need a foundation to stand on.
