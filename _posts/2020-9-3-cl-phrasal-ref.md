@@ -7,7 +7,7 @@ type: list
 ---
 
 ## List Operators
-- find, find-if
+- find, find-if, position, search, mismatch
 - append
 - map, map-into, mapcar, mapcan, maplist, mapcon
 - reduce
@@ -20,6 +20,13 @@ type: list
 - getf
 - last
 - some, every, notany, notevery
+- elt, aref
+- subseq
+- count
+- remove, delete, remove-duplicates, delete-duplicates
+- substitute
+- fill, replace
+- merge
 
 ## Special
 - unless
