@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Reading Code
-publish: nil
+publish: t
 type: essay
 start: aug 25, 2020
 last: aug 25, 2020
