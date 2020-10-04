@@ -4,6 +4,8 @@ title: Asking Interesting Questions
 permalink: /aiq/
 publish: nil
 type: list
+start: sep 10, 2020
+last: sep 10, 2020
 ---
 
 By the end of this essay I hope to give you a recipe for interesting questions.

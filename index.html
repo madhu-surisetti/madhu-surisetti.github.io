@@ -5,7 +5,7 @@ description: and his adventures in la la land
 ---
 
 <div class="posts" >
-    <h2> All Essays </h2>
+    <h2> Essays </h2>
   {% for post in site.posts %}
     {% if post.publish == "t" %}
         {% if post.type == "essay" %}
@@ -13,6 +13,7 @@ description: and his adventures in la la land
                 <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
                 <div class="entry">
                     {{ post.excerpt }}
+                    {{ post.start }}
                 </div>
                 <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
             </article>

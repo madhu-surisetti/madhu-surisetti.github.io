@@ -3,6 +3,8 @@ layout: post
 title: Reading Code
 publish: nil
 type: essay
+start: aug 25, 2020
+last: aug 25, 2020
 ---
 
 There's no virtual footprint of code-readers on the internet.

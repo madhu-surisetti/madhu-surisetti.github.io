@@ -4,6 +4,8 @@ title: GATE - CN
 permalink: /gate/computer-networks/
 publish: t
 type: list
+start: sep 9, 2020
+last: sep 9, 2020
 ---
 
 ## Computer Networks

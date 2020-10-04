@@ -4,6 +4,8 @@ title: CommonLisp Operator Reference
 permalink: /clor/
 publish: t
 type: list
+start: sep 10, 2020
+last: sep 10, 2020
 ---
 
 ## List Operators
