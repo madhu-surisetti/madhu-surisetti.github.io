@@ -1,9 +1,6 @@
 ---
-layout: page
-title: Asking Interesting Questions
-permalink: /aiq/
-publish: t
-type: list
+layout: essay
+title: asking-interesting-questions
 start: sep 10, 2020
 last: sep 10, 2020
 ---

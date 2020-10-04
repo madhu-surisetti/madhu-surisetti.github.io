@@ -7,7 +7,6 @@ description: and his adventures in la la land
 <div class="lists" >
     <h2> Lists </h2>
   {% for list in site.lists %}
-    {% if list.publish == "t" %}
     <article class="list">
       <h1><a href="{{ site.baseurl }}{{ list.url }}">{{ list.title }}</a></h1>
       <div class="entry">
@@ -16,6 +15,5 @@ description: and his adventures in la la land
       </div>
       <a href="{{ site.baseurl }}{{ list.url }}" class="read-more">Read More</a>
     </article>
-    {% endif %}
     {% endfor %}
 </div>

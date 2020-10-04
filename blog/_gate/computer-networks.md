@@ -1,11 +1,8 @@
 ---
 layout: page
-title: GATE - CN
-permalink: /gate/computer-networks/
-publish: t
-type: list
-start: sep 9, 2020
-last: sep 9, 2020
+title: computer-networks
+start: sep 8, 2020
+last: oct 4, 2020
 ---
 
 ## Computer Networks

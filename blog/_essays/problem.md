@@ -1,10 +1,8 @@
 ---
-layout: post
-title: The Problem Problem
-publish: t
-type: essay
-start: sep 10, 2020
-last: sep 10, 2020
+layout: essay
+title: the-problem
+start: sep 1, 2020
+last: sep 1, 2020
 ---
 
 By the end of this essay, I hope to end up with a recipe for being a _great problem solver_.

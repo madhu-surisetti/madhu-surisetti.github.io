@@ -1,11 +1,8 @@
 ---
 layout: page
-title: Lisp, love, freedom
-permalink: /lisp/
-publish: t
-type: list
-start: sep 10, 2020
-last: sep 10, 2020
+title: lisp-love-freedom
+start: sep 20, 2020
+last: sep 20, 2020
 ---
 
 What's special about lisp
@@ -61,4 +58,3 @@ What's special about lisp
 
 
 ### lists
- - 

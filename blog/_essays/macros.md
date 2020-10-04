@@ -1,8 +1,6 @@
 ---
 layout: essay
 title: macros
-publish: t
-type: essay
 start: oct 1, 2020
 last: oct 3, 2020
 ---

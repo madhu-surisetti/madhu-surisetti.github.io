@@ -1,8 +1,6 @@
 ---
-layout: post
-title: Reading Code
-publish: t
-type: essay
+layout: essay
+title: reading-code
 start: aug 25, 2020
 last: aug 25, 2020
 ---

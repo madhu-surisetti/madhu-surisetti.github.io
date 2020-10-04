@@ -4,10 +4,9 @@ layout: default
 description: and his adventures in la la land
 ---
 
-<div class="essays" >
-    <h2> Essays </h2>
+<div class="gate" >
+    <h2> Gate </h2>
   {% for chapter in site.gate %}
-    {% if chapter.publish == "t" %}
     <article class="chapter">
       <h1><a href="{{ site.baseurl }}{{ chapter.url }}">{{ chapter.title }}</a></h1>
       <div class="entry">
@@ -16,6 +15,5 @@ description: and his adventures in la la land
       </div>
       <a href="{{ site.baseurl }}{{ chapter.url }}" class="read-more">Read More</a>
     </article>
-    {% endif %}
     {% endfor %}
 </div>

@@ -1,11 +1,8 @@
 ---
 layout: page
-title: Quotes
-permalink: /q/
-publish: t
-type: list
-start: sep 10, 2020
-last: sep 10, 2020
+title: quotes
+start: sep 21, 2020
+last: sep 21, 2020
 ---
 
 Wisdom for a Lifetime

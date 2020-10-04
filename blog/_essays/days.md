@@ -1,10 +1,8 @@
 ---
-layout: post
+layout: essay
 title: days
-publish: t
-type: essay
-start: sep 10, 2020
-last: sep 10, 2020
+start: sep 9, 2020
+last: sep 9, 2020
 ---
 
 _How we spend our days is of course, how we spend our lives_

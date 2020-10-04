@@ -1,9 +1,6 @@
 ---
 layout: page
-title: CommonLisp Operator Reference
-permalink: /clor/
-publish: t
-type: list
+title: commonlisp-operator-reference
 start: sep 10, 2020
 last: sep 10, 2020
 ---
