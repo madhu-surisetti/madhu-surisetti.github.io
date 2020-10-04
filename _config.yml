@@ -59,6 +59,13 @@ collections_dir: blog
 collections:
   essays:
     output: true
+collections:
+  lists:
+    output: true
+collections:
+  gate:
+    output: true
+
 
 
 

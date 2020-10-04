@@ -2,22 +2,20 @@
 name: madhu-surisetti
 layout: default
 description: and his adventures in la la land
-permalink: /lists/
 ---
 
-<div class="posts" >
-    <h2> All Lists </h2>
-    {% for post in site.posts %}
-        {% if post.publish == "t" %}
-            {% if post.type == "list" %}
-                <article class="post">
-                    <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-                    <div class="entry">
-                        {{ post.excerpt }}
-                    </div>
-                    <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-                </article>
-            {% endif %}
-        {% endif %}
+<div class="lists" >
+    <h2> Lists </h2>
+  {% for list in site.lists %}
+    {% if list.publish == "t" %}
+    <article class="list">
+      <h1><a href="{{ site.baseurl }}{{ list.url }}">{{ list.title }}</a></h1>
+      <div class="entry">
+        {{ list.excerpt }}
+        Started on {{ list.start }}
+      </div>
+      <a href="{{ site.baseurl }}{{ list.url }}" class="read-more">Read More</a>
+    </article>
+    {% endif %}
     {% endfor %}
 </div>
