@@ -49,6 +49,34 @@ url: https://madhu-surisetti.github.io
 # then add in the baseurl here, like this: "/repository-name"
 baseurl: ""
 
+
+
+
+
+
+# collections setup
+collections_dir: blog
+collections:
+  essays:
+    output: true
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #
 # !! You don't need to change any of the configuration flags below !!
 #

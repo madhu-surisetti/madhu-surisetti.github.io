@@ -78,4 +78,20 @@ last: sep 9, 2020
 ### Subnetting in CIDR, VLSM in CIDR
 - If you want to subnet, choose bits from host-id and divide.
 - For representation, append the subnet bits to the IP.
-- 
+
+### Supernetting or aggregation
+- Rules for supernetting
+-- contiguous networks
+-- same size
+-- size should be an exponent of 2
+-- first network-id is divisible by the size of the supernet
+- there is a supernet mask
+- supernetting is useful reduce the trouble of maintaining a routing table
+- replace the variable bits with 0's and the rest with 1's to get the supernet mask
+
+### private ip (nat)
+- addresses that are open to anyone without explicit permission
+- 10.0.0.0    - 10.255.255.255
+- 172.16.0.0  - 172.31.255.255
+- 192.168.0.0 - 192.168.255.255
+

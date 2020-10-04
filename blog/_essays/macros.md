@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: essay
 title: macros
 publish: t
 type: essay
