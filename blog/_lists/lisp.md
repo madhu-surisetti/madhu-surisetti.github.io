@@ -48,7 +48,8 @@ What's special about lisp
 ### Mapping
  - map => Like CONCATENATE and MERGE, MAP needs to be told what kind of sequence to create
    ```lisp
-   (map 'vector #'* #(1 2 3 4 5) #(10 9 8 7 6)) ==> #(10 18 24 28 30)
+   (map 'vector #'+ #(1 2 3 4 5)
+                    #(6 7 8 9 0)) ==> #(7 9 11 13 5)
    ```
  - map-into => MAP-INTO is like MAP except instead of producing a new sequence of a given type, it places the results into a sequence passed as the first argument
  - mapcar => the result is a new list(no type specifier needed like 'map')
