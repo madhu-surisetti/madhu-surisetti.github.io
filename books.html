@@ -1,0 +1,15 @@
+---
+name: madhu-surisetti
+layout: default
+description: and his adventures in la la land
+---
+
+<div class="lists" >
+    <h2> Books </h2>
+  {% assign books = site.static_files | where: "book", true %}
+  {% for fm_book in books %}
+    <div class="books">
+      <a href="{{ site.baseurl }}{{ fm_book.path }}" class="read-more">{{ fm_book.name }}</a>
+    </div>
+  {% endfor %}
+</div>
