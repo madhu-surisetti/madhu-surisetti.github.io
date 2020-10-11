@@ -4,18 +4,16 @@ layout: default
 description: and his adventures in la la land
 ---
 
-<div class="essays" >
-    <h2> Essays </h2>
-  {% for essay in site.essays %}
-    <article class="essay">
-      <h1><a href="{{ site.baseurl }}{{ essay.url }}">{{ essay.title }}</a></h1>
+<div class="figs" >
+    <h2> figs </h2>
+  {% for fig in site.figs %}
+    <article class="fig">
+      <h1><a href="{{ site.baseurl }}{{ fig.url }}">{{ fig.title }}</a></h1>
       <div class="entry">
-        {{ essay.excerpt }}
-        {{ essay.start }}
+        {{ fig.excerpt }}
+        {{ fig.start }}
       </div>
-      <a href="{{ site.baseurl }}{{ essay.url }}" class="read-more">Read More</a>
+      <a href="{{ site.baseurl }}{{ fig.url }}" class="read-more">Read More</a>
     </article>
     {% endfor %}
 </div>
-
-
