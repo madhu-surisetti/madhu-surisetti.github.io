@@ -56,7 +56,10 @@ baseurl: ""
 # collections setup
 collections_dir: blog
 collections:
-  essays:
+  figs:
+    output: true
+    permalink: /:collection/:name
+  fm:
     output: true
     permalink: /:collection/:name
   lists:
@@ -66,6 +69,13 @@ collections:
     output: true
     permalink: /:collection/:name
 
+
+
+defaults:
+  - scope:
+      path: "assets/fm"
+    values:
+      book: true
 
 
 
