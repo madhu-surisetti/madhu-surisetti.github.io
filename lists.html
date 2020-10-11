@@ -16,4 +16,15 @@ description: and his adventures in la la land
       <a href="{{ site.baseurl }}{{ list.url }}" class="read-more">Read More</a>
     </article>
     {% endfor %}
+
+    {% for pdf in site.fm %}
+    <article class="list">
+      <h1><a href="{{ site.baseurl }}{{ pdf.url }}">{{ pdf.title }}</a></h1>
+      <div class="entry">
+      </div>
+      <a href="{{ site.baseurl }}{{ pdf.url }}" class="read-more">Read More</a>
+    </article>
+    {% endfor %}
+
+
 </div>
